@@ -1,15 +1,15 @@
 %define upstream_name    File-ShareDir-Install
-%define upstream_version 0.04
+%define upstream_version 0.05
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.04
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Install shared files
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/File/File-ShareDir-Install-0.04.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/File/File-ShareDir-Install-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -56,4 +56,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Mar 05 2010 cpan2dist 0.03-1mdv
 - initial mdv release, generated with cpan2dist
+
 
