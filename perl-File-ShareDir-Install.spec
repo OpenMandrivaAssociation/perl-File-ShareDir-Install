@@ -1,5 +1,5 @@
 %define upstream_name    File-ShareDir-Install
-%define upstream_version 0.05
+%define upstream_version 0.08
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -56,5 +56,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Mar 05 2010 cpan2dist 0.03-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 
