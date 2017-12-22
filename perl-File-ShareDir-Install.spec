@@ -1,9 +1,9 @@
 %define upstream_name    File-ShareDir-Install
-%define upstream_version 0.08
+%define upstream_version 0.11
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Install shared files
 License:	GPL+ or Artistic
@@ -43,19 +43,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes README META.yml
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-%changelog
-* Mon Apr 18 2011 Funda Wang <fwang@mandriva.org> 0.30.0-2mdv2011.0
-+ Revision: 654963
-- rebuild for updated spec-helper
-
-* Fri Mar 05 2010 Jérôme Quelin <jquelin@mandriva.org> 0.30.0-1mdv2011.0
-+ Revision: 514462
-- import perl-File-ShareDir-Install
-
-
-* Fri Mar 05 2010 cpan2dist 0.03-1mdv
-- initial mdv release, generated with cpan2dist
-
-
-
