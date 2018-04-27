@@ -15,6 +15,8 @@ BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
 BuildRequires:	perl(File::Spec)
 BuildRequires:	perl(IO::Dir)
+BuildRequires:	perl(CPAN::Meta::YAML)
+BuildRequires:	perl(Test::More)
 BuildArch:	noarch
 
 %description
