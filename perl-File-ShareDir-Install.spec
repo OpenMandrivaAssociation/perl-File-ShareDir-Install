@@ -1,5 +1,5 @@
 %define upstream_name    File-ShareDir-Install
-%define upstream_version 0.11
+%define upstream_version 0.13
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
