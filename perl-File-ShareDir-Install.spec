@@ -7,7 +7,7 @@ Release:	5
 Summary:	Install shared files
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/File::ShareDir::Install
+Url:		https://metacpan.org/pod/File::ShareDir::Install
 Source0:	http://www.cpan.org/modules/by-module/File/File-ShareDir-Install-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
