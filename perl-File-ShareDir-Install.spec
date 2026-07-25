@@ -1,14 +1,14 @@
 %define upstream_name    File-ShareDir-Install
-%define upstream_version 0.13
+%define upstream_version 0.14
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 Summary:	Install shared files
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://metacpan.org/pod/File::ShareDir::Install
-Source0:	http://www.cpan.org/modules/by-module/File/File-ShareDir-Install-%{upstream_version}.tar.gz
+Url:		https://github.com/Perl-Toolchain-Gang/File-ShareDir-Install
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
