@@ -1,14 +1,12 @@
 %define upstream_name    File-ShareDir-Install
-%define upstream_version 0.14
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.14
+Release:	2
 Summary:	Install shared files
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/Perl-Toolchain-Gang/File-ShareDir-Install
-Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -29,7 +27,7 @@ manpage with the improvement of only installing the files you want; '.svn'
 and other source-control junk will be ignored.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
